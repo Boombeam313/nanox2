@@ -181,7 +181,6 @@ export default function Text() {
     <p>1 ซองให้พลังงานแค่ 70 กิโลแคลอรี่</p>
     <p>✅ 0% คอเลสเตอรอล</p>
     <p>✅ 0% ไขมันทรานส์</p>
-
     </div>
 
       <div className="review-heading">
