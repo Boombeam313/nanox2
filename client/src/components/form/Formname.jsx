@@ -6,6 +6,7 @@ import { TiShoppingCart } from "react-icons/ti";
 import { FaTruckFast, FaRegCreditCard, FaCopy } from "react-icons/fa6";
 import { Radio } from 'antd';
 import axios from 'axios';
+import "../product/Project.css"
 
 const Formname = () => {
   const [customerAddress, setCustomerAddress] = useState("");
@@ -120,10 +121,10 @@ const Formname = () => {
   };
 
   const products = [
-    { id: 1, name: 'nanoVA 1 ถุง', imageSrc: '/image/LINE_ALBUM_2023.11.23_231123_8_11zon.jpg', price: '390฿' },
-    { id: 2, name: 'nanoVA 2 ถุง', imageSrc: '/image/LINE_ALBUM_2023.11.23_231123_7_11zon.jpg', price: '690฿' },
-    { id: 3, name: 'nanoVA 3 ถุง', imageSrc: '/image/LINE_ALBUM_2023.11.23_231123_6_11zon.jpg', price: '990฿' },
-    { id: 4, name: 'nanoVA 5 ถุง', imageSrc: '/image/LINE_ALBUM_2023.11.23_231123_5_11zon.jpg', price: '1550฿' },
+    { id: 1, name: 'nanoX2', imageSrc: '/image/product1.webp', price: '149฿' },
+    { id: 2, name: 'nanoX2', imageSrc: '/image/product2.webp', price: '390฿' },
+    { id: 3, name: 'nanoX2', imageSrc: '/image/product3.webp', price: '780฿' },
+    { id: 4, name: 'nanoX2', imageSrc: '/image/product4.webp', price: '1170฿' },
     
     // Add more products as needed
   ];

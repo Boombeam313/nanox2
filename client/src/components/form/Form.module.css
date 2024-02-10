@@ -338,3 +338,34 @@
   
   
   
+
+  .productcard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .productcard.selected {
+    border-color: blue; /* Example: Change border color when selected */
+  }
+  
+  .cardcontent {
+    text-align: center;
+  }
+  
+  .productimage {
+    width: 100%; /* Adjust image size as needed */
+    border-radius: 8px;
+  }
+  
+  .productname {
+    font-weight: bold;
+  }
+  
+  .productprice {
+    color: green;
+  }
+  
