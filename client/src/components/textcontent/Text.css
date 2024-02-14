@@ -22,10 +22,10 @@
     }
   
     .title {
-      font-size: 38px;
+      font-size: 32px;
       font-family: 'Noto Sans Thai', sans-serif;
       text-align: left;
-      margin-top: 60px;
+      margin-top: 20px;
       margin-bottom: 10px;
       font-weight: bold;
     }
@@ -131,9 +131,8 @@
   }
   
   .title3 {
-    margin-top: 80px;
-    padding-left: 1.5em;
-    font-size: 38px;
+    margin-top: 20px;
+    font-size: 32px;
     font-family: 'Noto Sans Thai', sans-serif;
     text-align: left;
     margin-bottom: 10px;
@@ -159,9 +158,8 @@
     margin-top: 30px;
   }
   .title4 {
-    margin-top: 80px;
-    padding-left: 1.5em;
-    font-size: 38px;
+    margin-top: 20px;
+    font-size: 32px;
     font-family: 'Noto Sans Thai', sans-serif;
     text-align: left;
     margin-bottom: 10px;
@@ -177,9 +175,8 @@
     margin-top: 30px;
   }
   .title5 {
-    margin-top: 80px;
-    padding-left: 1.5em;
-    font-size: 38px;
+    margin-top: 20px;
+    font-size: 32px;
     font-family: 'Noto Sans Thai', sans-serif;
     text-align: left;
     margin-bottom: 10px;
@@ -187,9 +184,8 @@
   }
   
   .title6 {
-    margin-top: 80px;
-    padding-left: 1.5em;
-    font-size: 38px;
+    margin-top: 20px;
+    font-size: 32px;
     font-family: 'Noto Sans Thai', sans-serif;
     text-align: left;
     margin-bottom: 10px;
@@ -197,20 +193,88 @@
   }
   
   .title7 {
-    font-size: 80px;
+    margin-top: 20px;
+    font-size: 32px;
     font-family: 'Noto Sans Thai', sans-serif;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
     font-weight: bold;
   }
   
   .title8 {
-    font-size: 25px;
+    margin-top: 60px;
+    font-size: 40px;
     font-family: 'Noto Sans Thai', sans-serif;
     text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .title9 {
+    font-size: 32px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .title10 {
+    margin-top: 30px;
+    font-size: 56px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .title11 {
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .title12 {
+    margin-top: 20px;
+    font-size: 72px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #FABC15;
+  }
+
+  .title13 {
+    margin-top: 20px;
+    font-size: 72px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #095020;
+  }
+
+  .title14 {
+    margin-top: 20px;
+    font-size: 64px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
     font-weight: bold;
   }
   
+  .title-content {
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
   
   .productimage6{
     justify-content: center;
@@ -219,6 +283,54 @@
     margin: 0 auto;
     margin-top: 30px;
   }
+
+  .productimage7{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .productimage8{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .productimage9{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .productimage10{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .productimage11{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .productimage12{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  
  
       .review-heading{
       
@@ -300,6 +412,7 @@
           text-align: center;
           font-Size: 50px;
           font-weight: bold;
+          margin-top: 30px;
           
           }
   
@@ -396,6 +509,32 @@
             max-width: 100%; 
             margin-top: 50px;
           }
+          .imagereview11 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%; /* หรือกำหนดความสูงตามที่คุณต้องการ */
+          }
+  
+          .imagereview11 img {
+            width: 80%; 
+            height: auto;
+            max-width: 100%; 
+            margin-top: 50px;
+          }
+          .imagereview12 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%; /* หรือกำหนดความสูงตามที่คุณต้องการ */
+          }
+  
+          .imagereview12 img {
+            width: 80%; 
+            height: auto;
+            max-width: 100%; 
+            margin-top: 50px;
+          }
   
          
   
@@ -417,13 +556,31 @@
     
   
   .title {
-      font-size: 40px;
+      font-size: 32px;
       font-family: 'Noto Sans Thai', sans-serif;
       text-align: left;
       margin-bottom: 20px;
       font-weight: bold;
   
     }
+
+    .title-text{
+      font-size: 32px;
+      font-family: 'Noto Sans Thai', sans-serif;
+      text-align: left;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+
+    .title-text1{
+      font-size: 40px;
+      color: red;
+      font-family: 'Noto Sans Thai', sans-serif;
+      text-align: left;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
     
     .image-container {
       display: flex;
@@ -752,9 +909,18 @@
     
     .small-heading {
       text-align: center;
-      font-size: 130px;
+      font-size: 120px;
       font-family: 'Noto Sans Thai', sans-serif;
-      color: black;
+      color: #FABC15;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .small-heading1 {
+      text-align: center;
+      font-size: 120px;
+      font-family: 'Noto Sans Thai', sans-serif;
+      color: #095020;
       margin-bottom: 20px;
       font-weight: bold;
     }
