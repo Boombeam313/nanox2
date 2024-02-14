@@ -121,7 +121,7 @@ const Formname = () => {
   };
 
   const products = [
-    { id: 1, name: 'nanoX2 ฟหก', imageSrc: '/image/product1.webp', price: '149฿' },
+    { id: 1, name: 'nanoX2', imageSrc: '/image/product1.webp', price: '149฿' },
     { id: 2, name: 'nanoX2', imageSrc: '/image/product2.webp', price: '390฿' },
     { id: 3, name: 'nanoX2', imageSrc: '/image/product3.webp', price: '780฿' },
     { id: 4, name: 'nanoX2', imageSrc: '/image/product4.webp', price: '1170฿' },
