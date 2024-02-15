@@ -4,61 +4,61 @@ import { ImCross } from "react-icons/im";
 import Moneybutton from '../moneybutton/Moneybutton';
 
 export default function Text() {
-  // const videoRef1 = useRef(null);
-  // const videoRef2 = useRef(null);
+  const videoRef1 = useRef(null);
+  const videoRef2 = useRef(null);
 
-  // useEffect(() => {
-  //   const options = {
-  //     root: null,
-  //     rootMargin: '0px',
-  //     threshold: 0.5,
-  //   };
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5,
+    };
 
-  //   const handleIntersection1 = (entries) => {
-  //     entries.forEach((entry) => {
-  //       if (entry.isIntersecting) {
-  //         // Video 1 is in view, play
-  //         videoRef1.current.play();
-  //       } else {
-  //         // Video 1 is out of view, pause
-  //         videoRef1.current.pause();
-  //       }
-  //     });
-  //   };
+    const handleIntersection1 = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // Video 1 is in view, play
+          videoRef1.current.play();
+        } else {
+          // Video 1 is out of view, pause
+          videoRef1.current.pause();
+        }
+      });
+    };
 
-  //   const handleIntersection2 = (entries) => {
-  //     entries.forEach((entry) => {
-  //       if (entry.isIntersecting) {
-  //         // Video 2 is in view, play
-  //         videoRef2.current.play();
-  //       } else {
-  //         // Video 2 is out of view, pause
-  //         videoRef2.current.pause();
-  //       }
-  //     });
-  //   };
+    const handleIntersection2 = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // Video 2 is in view, play
+          videoRef2.current.play();
+        } else {
+          // Video 2 is out of view, pause
+          videoRef2.current.pause();
+        }
+      });
+    };
     
-  //   const observer1 = new IntersectionObserver(handleIntersection1, options);
-  //   const observer2 = new IntersectionObserver(handleIntersection2, options);
+    const observer1 = new IntersectionObserver(handleIntersection1, options);
+    const observer2 = new IntersectionObserver(handleIntersection2, options);
 
-  //   observer1.observe(videoRef1.current);
-  //   observer2.observe(videoRef2.current);
+    observer1.observe(videoRef1.current);
+    observer2.observe(videoRef2.current);
 
-  //   return () => {
-  //     observer1.disconnect();
-  //     observer2.disconnect();
-  //   };
-  // }, [videoRef1, videoRef2]);
+    return () => {
+      observer1.disconnect();
+      observer2.disconnect();
+    };
+  }, [videoRef1, videoRef2]);
 
   return (
     <>
       <div>
-        {/* <div className="convideo">
+        <div className="convideo">
           <video autoPlay controls muted ref={videoRef1} src="videos/ปัญหา.mp4" type="video/mp4" />
-        </div> */}
+        </div>
 
         <div className="product-promotion-title">
-          เคยไหม? เข้าห้องน้ำทีไรเหมือนรู้สึกติดเกาะ
+          เคยไหม? เข้าห้องน้ำทีไรรู้สึกเหมือนติดเกาะ
         </div>
 
         <div className="producttext2">
@@ -66,7 +66,7 @@ export default function Text() {
         </div>
 
         <div className="producttext2">
-          เบ่งจนสุดแรงเกิด<span className="producttext3"> แต่ก็ไม่ออก ! </span> 
+          เบ่งจนสุดแรง<span className="producttext3"> แต่ก็ไม่ออก ! </span> 
         </div>
 
         <div className="producttext2">
@@ -163,9 +163,9 @@ export default function Text() {
           />
         </div>
 
-        {/* <div className="con2video">
+        <div className="con2video">
           <video autoPlay controls muted ref={videoRef2} src="videos/nanoVA1.mp4" type="video/mp4" />
-        </div> */}
+        </div>
 
         <div className="title10">
           <p>สารสกัดของผลิตภัณฑ์</p>
